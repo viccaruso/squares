@@ -1,0 +1,21 @@
+#gameboard {
+  display: grid;
+  border: 1px solid black;
+  height: 800px;
+  width: 800px;
+  background-color: chocolate;
+  justify-items: center;
+  align-items: center;
+}
+#board {
+  display: grid;
+  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  height: 97%;
+  width: 97%;
+  border: 1px solid black;
+  background-color: bisque;
+}
+
+.square {
+  border: 1px solid black;
+}
